@@ -1,0 +1,16 @@
+fun main() {
+    // val inalteravel "valor , constante"
+    val idade :Int = 27
+    
+    // var alteravel "variação" de variavel 
+    var nome :String = "Mariana" // sempre indicando o tipo da variavel
+    
+    // alteração "variação" de var
+    nome = "João"
+    // nome = 0 não pode existir pelo fato de que o tipo da vaiavel é String
+    // e muito menos var nome :Int = 28
+    
+    // escrevendo na tela os valores
+    println(idade)
+    println(nome)
+}
