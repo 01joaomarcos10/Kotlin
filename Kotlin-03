@@ -1,0 +1,12 @@
+fun main(){
+    var num :Int = 0
+    while(true){
+        if (num <= 10){
+            println(num)
+            num ++
+        }else{
+            println("Ok")
+            break
+        }
+    }
+}
