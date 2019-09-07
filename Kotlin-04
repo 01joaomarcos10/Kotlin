@@ -1,0 +1,18 @@
+fun main(){
+    var num :Int = -10
+    while(true){
+		var value  = if (num < 0){
+        	println("Negativo")
+            println(num)
+            num ++
+        }else if( num == 0){
+            println("Neutro")
+            println(num)
+            num++
+        }else{
+        	println("Positivo")
+            println(num)
+            break
+    	}
+	}
+}
