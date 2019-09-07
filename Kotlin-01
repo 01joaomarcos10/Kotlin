@@ -1,6 +1,6 @@
 fun main() {
     // val inalteravel "valor , constante"
-    val idade :Int = 27
+    val idade :Int = 25
     
     // var alteravel "variação" de variavel 
     var nome :String = "Mariana" // sempre indicando o tipo da variavel
