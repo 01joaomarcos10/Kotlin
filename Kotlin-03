@@ -1,5 +1,8 @@
 fun main(){
     var num :Int = 0
+    
+    // Repetição  sem um determinado final
+    
     while(true){
         if (num <= 10){
             println(num)
@@ -7,6 +10,14 @@ fun main(){
         }else{
             println("Ok")
             break
-        }
+        } // condição para detreminar quando o fim da repetição pode ocorrer
     }
+    
+    // Repetição controlada
+    
+    for (i in 0..10){
+        println(i)
+    }
+    
+    // Neste caso as duas formas de repetição está mostrando para o usuario o mesmo resultado
 }
