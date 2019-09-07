@@ -1,0 +1,10 @@
+fun main(){
+    var name :String = "João"
+	var num :Int = 2
+    
+    if (num < 18){
+        println("Invalido")
+    }else{
+        println("Valido")
+    }
+}
